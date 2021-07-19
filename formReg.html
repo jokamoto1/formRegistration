@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<h1>Registration Form</h1>
+    <div>
+        <label for="fName">First Name:*</label>
+        <input type="text" id="fName" name=fName>
+    </div>
+    <div>
+        <label for="lName">Last Name:*</label>
+        <input type="text" id="lName" name=lName>
+    </div>
+    <div>
+        <label for="eA">Email Adress:*</label>
+        <input type="text" id="eA" name=eA>
+    </div>
+    <div>
+        <label for="password">Password:*</label>
+        <input type="password" id="password" name=password>
+    </div>
+    <div>
+        <label for="cPassword">Confirm Password:*</label>
+        <input type="password" id="cPassword" name=cPassword>
+    </div>
+    <div>
+        <label for="bDay">Birthday:</label>
+        <input type="date" id="bDay" name="bDay" min="1900-01-01" max="2020-01-01">
+    </div>
+    <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="non-binary" name="gender" value="nonbinary">
+        <label for="non-binary">Non-Binary</label>
+        <input type="radio" id="na" name="gender" value="na">
+        <label for="na">Prefer not to answer</label>
+    </div>
+    <div>
+        <label for="des">A short decription about myself:</label>
+    <div>
+    </div>
+        <textarea id="des" name="des" rows="3" cols="20"></textarea>
+    </div>
+    <div>
+        <label for="lang">Favorite Language:</label>
+        <select name="lang" id="lang">
+        <option value="js">JavaScript</option>
+        <option value="j">Java</option>
+        <option value="c">C</option>
+        <option value="py">Python</option>
+        <option value="parrot">Ruby</option>
+        </select>
+    </div>
+    <div>
+        <label for="check">Yes, I would like to see periodic email updates.</label>
+        <input type="checkbox" id="check" name=check>
+    </div>
+    <div><input type="submit" value="Create Account"></div>
+    <h4>* is required</h2>
+</html>
